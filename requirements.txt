@@ -1,0 +1,10 @@
+langchain
+openai
+huggingface_hub
+python-dotenv
+streamlit
+pytesseract
+Pillow
+pdf2image
+requests
+transformers

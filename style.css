@@ -1,0 +1,60 @@
+/* قاعدة عامة */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    direction: rtl;
+    text-align: right;
+  }
+
+ 
+  
+  /* تنسيق عنوان التطبيق */
+  .stAppHeader {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* تنسيق مربع الدردشة */
+  .stChatMessageContainer {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* تنسيق رسائل الدردشة */
+  .stChatMessage {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* تنسيق رسالة المستخدم */
+  .stChatMessage.user {
+    background-color: #d9edf7;
+    color: #333;
+  }
+  
+  /* تنسيق رسالة المساعد */
+  .stChatMessage.assistant {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  /* تنسيق زر الإدخال */
+  .stChatInput {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    color: #333;
+  }
+  
