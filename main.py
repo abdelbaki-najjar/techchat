@@ -4,8 +4,8 @@ try:
 except ImportError:
     OpenAIError = Exception  # استخدام استثناء عام إذا لم يتم التعرف على OpenAIError
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
-from langchain_openai import ChatOpenAI
-#from langchain.chat_models import ChatOpenAI
+#from langchain_openai import ChatOpenAI
+from langchain.chat_models import ChatOpenAI
 from dotenv import load_dotenv
 import os
 
